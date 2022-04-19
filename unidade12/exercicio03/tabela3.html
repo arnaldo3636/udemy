@@ -22,7 +22,7 @@
 			font-size:130%;
 			font-weight:bold;
 			padding:5px 0;
-			background-color:#ECECEC;
+			background-color:#ddd;
 			border:1px solid #ccc;
 			border-bottom:none;
 		}
@@ -44,7 +44,7 @@
 		
 		thead th {
 			text-align:center;
-			background-color:#E0E0E0;
+			background-color:#ddd;
 		}
 
 		thead tr th:first-child {
@@ -57,12 +57,15 @@
 		}
         
         tbody tr:nth-child(odd) {
-            background-color: beige   
+            background-color:#ddd
         }
-        
-        tbody tr:nth-child(even) {
-            background-color:antiquewhite  
-        }        
+        .coluna1{
+            background-color: #d1c8c8;
+        }
+        .coluna3{
+            background-color: #ddd ;
+        }
+      
 	
 	
 	</style>
@@ -71,7 +74,13 @@
 		
         <table>
         
-            <caption>Olimpiadas do Rio de Janeiro 2016</caption>
+            <caption>Olimpiadas do Rio de Janeiro 2016</aption>
+                <colgroup>
+                    <col class="coluna1">
+                    <col>
+                    <col class="coluna3">
+                    
+                </colgroup>
             <thead>
                 <tr>
                     <td></td>
